@@ -12,7 +12,7 @@ def read_config():
         #print(character)
 
     for i in character:
-        if character[str(i)] == "1":
+        if character[str(i)] == "11":
             character[str(i)] = "Brimstone"
         if character[str(i)] == "2":
             character[str(i)] = "Cypher"
@@ -32,7 +32,7 @@ def read_config():
             character[str(i)] = "Killjoy"
         if character[str(i)] == "10":
             character[str(i)] = "Raze"
-        if character[str(i)] == "11":
+        if character[str(i)] == "1":
             character[str(i)] = "Reyna"
         if character[str(i)] == "12":
             character[str(i)] = "Viper"
